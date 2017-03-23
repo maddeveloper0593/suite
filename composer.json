@@ -1,0 +1,29 @@
+{
+    "name": "suit-sdk",
+    "description": "This package contain Suit CRM SDK.",
+    "license": "MIT",
+    "version": "1.0.1",
+    "type": "library",
+    "prefer-stable" : true,
+    "authors": [
+        {
+            "name": "Designersx",
+            "email": "developer@designersx.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "repositories": [
+            {
+                "type": "vcs",
+                "url": "https://github.com/Daursu/curl"
+            }
+        ],
+    "require": {
+        "asakusuma/sugarcrm-wrapper": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "SuitSDK\\": "src/"
+        }
+    }
+}

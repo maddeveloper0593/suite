@@ -1,0 +1,203 @@
+[17-Mar-2017 07:59:21 America/Chicago] PHP Warning:  Missing argument 2 for Asakusuma\SugarWrapper\Rest::get(), called in /home/matricor/public_html/cerebracrm/suit-sdk/src/Config.php on line 21 and defined in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php on line 466
+[17-Mar-2017 08:01:12 America/Chicago] PHP Fatal error:  Call to undefined method Asakusuma\SugarWrapper\Rest::create() in /home/matricor/public_html/cerebracrm/suit-sdk/src/Config.php on line 21
+[17-Mar-2017 08:07:36 America/Chicago] PHP Parse error:  syntax error, unexpected '$error' (T_VARIABLE) in /home/matricor/public_html/cerebracrm/suit-sdk/src/Config.php on line 18
+[20-Mar-2017 04:58:51 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Provide a url either in constructor or while calling verb method.' in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/alexsoft/curl/src/Alexsoft/Curl.php:155
+Stack trace:
+#0 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(305): Alexsoft\Curl->__call('post', Array)
+#1 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(305): Alexsoft\Curl->post()
+#2 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(510): Asakusuma\SugarWrapper\Rest->rest_request('set_entry', Array)
+#3 /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php(29): Asakusuma\SugarWrapper\Rest->set('Users', Array)
+#4 /home/matricor/public_html/cerebracrm/suit-sdk/index.php(9): SuitSDK\UserRequest->createOrder()
+#5 {main}
+  thrown in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/alexsoft/curl/src/Alexsoft/Curl.php on line 155
+[20-Mar-2017 05:03:55 America/Chicago] PHP Parse error:  syntax error, unexpected '$con' (T_VARIABLE) in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 19
+[20-Mar-2017 05:04:07 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 24
+[20-Mar-2017 05:05:59 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Provide a url either in constructor or while calling verb method.' in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/alexsoft/curl/src/Alexsoft/Curl.php:155
+Stack trace:
+#0 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(305): Alexsoft\Curl->__call('post', Array)
+#1 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(305): Alexsoft\Curl->post()
+#2 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(510): Asakusuma\SugarWrapper\Rest->rest_request('set_entry', Array)
+#3 /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php(27): Asakusuma\SugarWrapper\Rest->set('Users', Array)
+#4 /home/matricor/public_html/cerebracrm/suit-sdk/index.php(7): SuitSDK\UserRequest->getName()
+#5 {main}
+  thrown in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/alexsoft/curl/src/Alexsoft/Curl.php on line 155
+[20-Mar-2017 05:07:39 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Provide a url either in constructor or while calling verb method.' in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/alexsoft/curl/src/Alexsoft/Curl.php:155
+Stack trace:
+#0 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(305): Alexsoft\Curl->__call('post', Array)
+#1 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(305): Alexsoft\Curl->post()
+#2 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(510): Asakusuma\SugarWrapper\Rest->rest_request('set_entry', Array)
+#3 /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php(29): Asakusuma\SugarWrapper\Rest->set('Users', Array)
+#4 /home/matricor/public_html/cerebracrm/suit-sdk/index.php(9): SuitSDK\UserRequest->createOrder()
+#5 {main}
+  thrown in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/alexsoft/curl/src/Alexsoft/Curl.php on line 155
+[20-Mar-2017 05:10:13 America/Chicago] PHP Fatal error:  Call to undefined method Alexsoft\Curl::post() in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php on line 305
+[20-Mar-2017 05:12:39 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Provide a url either in constructor or while calling verb method.' in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/alexsoft/curl/src/Alexsoft/Curl.php:155
+Stack trace:
+#0 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(305): Alexsoft\Curl->__call('post', Array)
+#1 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(305): Alexsoft\Curl->post()
+#2 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(510): Asakusuma\SugarWrapper\Rest->rest_request('set_entry', Array)
+#3 /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php(29): Asakusuma\SugarWrapper\Rest->set('Users', Array)
+#4 /home/matricor/public_html/cerebracrm/suit-sdk/index.php(9): SuitSDK\UserRequest->createOrder()
+#5 {main}
+  thrown in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/alexsoft/curl/src/Alexsoft/Curl.php on line 155
+[20-Mar-2017 05:14:34 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Provide a url either in constructor or while calling verb method.' in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/alexsoft/curl/src/Alexsoft/Curl.php:155
+Stack trace:
+#0 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(305): Alexsoft\Curl->__call('post', Array)
+#1 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(305): Alexsoft\Curl->post()
+#2 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(510): Asakusuma\SugarWrapper\Rest->rest_request('set_entry', Array)
+#3 /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php(29): Asakusuma\SugarWrapper\Rest->set('Users', Array)
+#4 /home/matricor/public_html/cerebracrm/suit-sdk/index.php(9): SuitSDK\UserRequest->createOrder()
+#5 {main}
+  thrown in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/alexsoft/curl/src/Alexsoft/Curl.php on line 155
+[20-Mar-2017 05:15:07 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Provide a url either in constructor or while calling verb method.' in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/alexsoft/curl/src/Alexsoft/Curl.php:155
+Stack trace:
+#0 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(305): Alexsoft\Curl->__call('post', Array)
+#1 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(305): Alexsoft\Curl->post()
+#2 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(510): Asakusuma\SugarWrapper\Rest->rest_request('set_entry', Array)
+#3 /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php(29): Asakusuma\SugarWrapper\Rest->set('Users', Array)
+#4 /home/matricor/public_html/cerebracrm/suit-sdk/index.php(9): SuitSDK\UserRequest->createOrder()
+#5 {main}
+  thrown in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/alexsoft/curl/src/Alexsoft/Curl.php on line 155
+[20-Mar-2017 06:08:45 America/Chicago] PHP Fatal error:  Class 'SuitSDK\UserRequest' not found in /home/matricor/public_html/cerebracrm/suit-sdk/index.php on line 4
+[20-Mar-2017 06:10:00 America/Chicago] PHP Fatal error:  Class 'SuitSDK\UserRequest' not found in /home/matricor/public_html/cerebracrm/suit-sdk/index.php on line 4
+[20-Mar-2017 06:10:56 America/Chicago] PHP Fatal error:  Class 'SuitSDK\UserRequest' not found in /home/matricor/public_html/cerebracrm/suit-sdk/index.php on line 4
+[20-Mar-2017 06:11:55 America/Chicago] PHP Fatal error:  Class 'ComposerAutoloaderInit99b4e984e48222e3299c5a9be8bb579c' not found in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/autoload.php on line 7
+[20-Mar-2017 06:12:00 America/Chicago] PHP Fatal error:  Class 'ComposerAutoloaderInit99b4e984e48222e3299c5a9be8bb579c' not found in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/autoload.php on line 7
+[20-Mar-2017 06:12:40 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Provide a url either in constructor or while calling verb method.' in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/alexsoft/curl/src/Alexsoft/Curl.php:155
+Stack trace:
+#0 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(305): Alexsoft\Curl->__call('post', Array)
+#1 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(305): Alexsoft\Curl->post()
+#2 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(510): Asakusuma\SugarWrapper\Rest->rest_request('set_entry', Array)
+#3 /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php(29): Asakusuma\SugarWrapper\Rest->set('Users', Array)
+#4 /home/matricor/public_html/cerebracrm/suit-sdk/index.php(9): SuitSDK\UserRequest->createOrder()
+#5 {main}
+  thrown in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/alexsoft/curl/src/Alexsoft/Curl.php on line 155
+[20-Mar-2017 06:16:22 America/Chicago] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/matricor/public_html/cerebracrm/suit-sdk/index.php on line 12
+[20-Mar-2017 06:17:41 America/Chicago] PHP Fatal error:  Call to a member function setUrl() on null in /home/matricor/public_html/cerebracrm/suit-sdk/index.php on line 16
+[20-Mar-2017 06:22:00 America/Chicago] PHP Fatal error:  Class 'SuitSDK\UserRequest' not found in /home/matricor/public_html/cerebracrm/suit-sdk/index.php on line 4
+[20-Mar-2017 06:23:50 America/Chicago] PHP Fatal error:  Class 'UserRequest' not found in /home/matricor/public_html/cerebracrm/suit-sdk/index.php on line 4
+[20-Mar-2017 06:25:06 America/Chicago] PHP Fatal error:  Class 'UserRequest' not found in /home/matricor/public_html/cerebracrm/suit-sdk/index.php on line 4
+[20-Mar-2017 06:25:08 America/Chicago] PHP Fatal error:  Class 'UserRequest' not found in /home/matricor/public_html/cerebracrm/suit-sdk/index.php on line 4
+[20-Mar-2017 06:26:52 America/Chicago] PHP Fatal error:  Class 'Config' not found in /home/matricor/public_html/cerebracrm/suit-sdk/index.php on line 4
+[20-Mar-2017 06:26:55 America/Chicago] PHP Fatal error:  Class 'Config' not found in /home/matricor/public_html/cerebracrm/suit-sdk/index.php on line 4
+[20-Mar-2017 06:28:51 America/Chicago] PHP Fatal error:  Class 'Config' not found in /home/matricor/public_html/cerebracrm/suit-sdk/index.php on line 4
+[20-Mar-2017 06:28:54 America/Chicago] PHP Fatal error:  Class 'Config' not found in /home/matricor/public_html/cerebracrm/suit-sdk/index.php on line 4
+[20-Mar-2017 06:29:24 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Provide a url either in constructor or while calling verb method.' in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/alexsoft/curl/src/Alexsoft/Curl.php:155
+Stack trace:
+#0 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(305): Alexsoft\Curl->__call('post', Array)
+#1 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(305): Alexsoft\Curl->post()
+#2 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(510): Asakusuma\SugarWrapper\Rest->rest_request('set_entry', Array)
+#3 /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php(29): Asakusuma\SugarWrapper\Rest->set('Users', Array)
+#4 /home/matricor/public_html/cerebracrm/suit-sdk/index.php(9): SuitSDK\UserRequest->createOrder()
+#5 {main}
+  thrown in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/alexsoft/curl/src/Alexsoft/Curl.php on line 155
+[20-Mar-2017 06:30:13 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/index.php on line 5
+[20-Mar-2017 06:33:00 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 27
+[20-Mar-2017 06:34:31 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 27
+[20-Mar-2017 06:40:38 America/Chicago] PHP Fatal error:  Class 'Asakusuma\SugarWrapper\Rest' not found in /home/matricor/public_html/cerebracrm/suit-sdk/src/Config.php on line 10
+[20-Mar-2017 06:45:11 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Provide a url either in constructor or while calling verb method.' in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/alexsoft/curl/src/Alexsoft/Curl.php:155
+Stack trace:
+#0 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(305): Alexsoft\Curl->__call('post', Array)
+#1 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(305): Alexsoft\Curl->post()
+#2 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(510): Asakusuma\SugarWrapper\Rest->rest_request('set_entry', Array)
+#3 /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php(29): Asakusuma\SugarWrapper\Rest->set('Users', Array)
+#4 /home/matricor/public_html/cerebracrm/suit-sdk/index.php(12): SuitSDK\UserRequest->createOrder()
+#5 {main}
+  thrown in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/alexsoft/curl/src/Alexsoft/Curl.php on line 155
+[20-Mar-2017 06:45:32 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 26
+[20-Mar-2017 06:46:28 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\UserRequest::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 26
+[20-Mar-2017 06:48:59 America/Chicago] PHP Fatal error:  Call to a member function connect() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 27
+[20-Mar-2017 06:49:19 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 27
+[20-Mar-2017 06:52:05 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 26
+[20-Mar-2017 06:53:40 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 26
+[20-Mar-2017 06:54:06 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 26
+[20-Mar-2017 06:54:39 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 25
+[20-Mar-2017 06:59:33 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/index.php on line 6
+[20-Mar-2017 07:00:27 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/index.php on line 7
+[20-Mar-2017 07:07:06 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/index.php on line 7
+[20-Mar-2017 07:07:43 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 13
+[20-Mar-2017 07:08:01 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 13
+[20-Mar-2017 07:08:07 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 13
+[20-Mar-2017 07:08:59 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/index.php on line 7
+[20-Mar-2017 07:09:24 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 26
+[20-Mar-2017 07:11:37 America/Chicago] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 12
+[20-Mar-2017 07:12:01 America/Chicago] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 12
+[20-Mar-2017 07:14:13 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 25
+[20-Mar-2017 07:16:17 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 24
+[20-Mar-2017 07:20:43 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 24
+[20-Mar-2017 07:21:38 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 24
+[20-Mar-2017 07:22:42 America/Chicago] PHP Fatal error:  Class 'SuitSDK\con' not found in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 24
+[20-Mar-2017 07:23:25 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 25
+[20-Mar-2017 07:23:30 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 25
+[20-Mar-2017 07:26:20 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 24
+[20-Mar-2017 07:26:41 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 24
+[20-Mar-2017 07:27:22 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 24
+[20-Mar-2017 07:27:47 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 24
+[20-Mar-2017 07:28:45 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 24
+[20-Mar-2017 07:29:37 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 24
+[20-Mar-2017 07:38:21 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 24
+[20-Mar-2017 07:42:21 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 24
+[20-Mar-2017 07:42:46 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 24
+[20-Mar-2017 07:43:05 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 24
+[20-Mar-2017 07:43:10 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 24
+[20-Mar-2017 07:44:06 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 25
+[20-Mar-2017 07:44:13 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 25
+[20-Mar-2017 07:45:51 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 29
+[20-Mar-2017 07:46:11 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 26
+[20-Mar-2017 07:46:13 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 26
+[20-Mar-2017 07:54:24 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Provide a url either in constructor or while calling verb method.' in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/alexsoft/curl/src/Alexsoft/Curl.php:155
+Stack trace:
+#0 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(305): Alexsoft\Curl->__call('post', Array)
+#1 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(305): Alexsoft\Curl->post()
+#2 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(510): Asakusuma\SugarWrapper\Rest->rest_request('set_entry', Array)
+#3 /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php(34): Asakusuma\SugarWrapper\Rest->set('Users', Array)
+#4 /home/matricor/public_html/cerebracrm/suit-sdk/index.php(12): SuitSDK\UserRequest->createOrder()
+#5 {main}
+  thrown in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/alexsoft/curl/src/Alexsoft/Curl.php on line 155
+[20-Mar-2017 07:57:13 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 26
+[20-Mar-2017 07:59:11 America/Chicago] PHP Fatal error:  Class 'SuitSDK\Config' not found in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 5
+[20-Mar-2017 07:59:14 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 26
+[20-Mar-2017 07:59:17 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 26
+[20-Mar-2017 08:03:38 America/Chicago] PHP Fatal error:  Call to a member function setUrl() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/Config.php on line 11
+[20-Mar-2017 08:05:54 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 24
+[20-Mar-2017 08:07:00 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 24
+[20-Mar-2017 08:07:04 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 24
+[20-Mar-2017 08:07:22 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 24
+[20-Mar-2017 08:10:08 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 23
+[20-Mar-2017 08:12:24 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 23
+[20-Mar-2017 08:16:02 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 23
+[20-Mar-2017 08:17:14 America/Chicago] PHP Warning:  require_once(/home/matricor/public_html/cerebracrm/suit-sdk/src/vendor/autoload.php): failed to open stream: No such file or directory in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 4
+[20-Mar-2017 08:17:14 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home/matricor/public_html/cerebracrm/suit-sdk/src/vendor/autoload.php' (include_path='.:/opt/php56/lib/php') in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 4
+[20-Mar-2017 08:17:56 America/Chicago] PHP Warning:  require_once(/home/matricor/public_html/cerebracrm/suit-sdk/src../vendor/autoload.php): failed to open stream: No such file or directory in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 3
+[20-Mar-2017 08:17:56 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home/matricor/public_html/cerebracrm/suit-sdk/src../vendor/autoload.php' (include_path='.:/opt/php56/lib/php') in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 3
+[20-Mar-2017 08:18:16 America/Chicago] PHP Warning:  require_once(/home/matricor/public_html/cerebracrm/suit-sdk/src./vendor/autoload.php): failed to open stream: No such file or directory in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 3
+[20-Mar-2017 08:18:16 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home/matricor/public_html/cerebracrm/suit-sdk/src./vendor/autoload.php' (include_path='.:/opt/php56/lib/php') in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 3
+[20-Mar-2017 08:21:23 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 23
+[20-Mar-2017 08:21:59 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 23
+[20-Mar-2017 08:22:59 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 23
+[20-Mar-2017 08:24:17 America/Chicago] PHP Parse error:  syntax error, unexpected '$sugar2' (T_VARIABLE), expecting function (T_FUNCTION) in /home/matricor/public_html/cerebracrm/suit-sdk/src/Config.php on line 8
+[20-Mar-2017 08:24:43 America/Chicago] PHP Fatal error:  Call to a member function setUrl() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/Config.php on line 12
+[20-Mar-2017 08:25:06 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Provide a url either in constructor or while calling verb method.' in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/alexsoft/curl/src/Alexsoft/Curl.php:155
+Stack trace:
+#0 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(305): Alexsoft\Curl->__call('post', Array)
+#1 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(305): Alexsoft\Curl->post()
+#2 /home/matricor/public_html/cerebracrm/suit-sdk/vendor/asakusuma/sugarcrm-wrapper/src/Asakusuma/SugarWrapper/Rest.php(510): Asakusuma\SugarWrapper\Rest->rest_request('set_entry', Array)
+#3 /home/matricor/public_html/cerebracrm/suit-sdk/src/Config.php(25): Asakusuma\SugarWrapper\Rest->set('Users', Array)
+#4 /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php(25): SuitSDK\Config->set('Users', Array)
+#5 /home/matricor/public_html/cerebracrm/suit-sdk/index.php(6): SuitSDK\U in /home/matricor/public_html/cerebracrm/suit-sdk/vendor/alexsoft/curl/src/Alexsoft/Curl.php on line 155
+[20-Mar-2017 08:26:01 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 23
+[20-Mar-2017 08:30:26 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 23
+[20-Mar-2017 08:31:27 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/matricor/public_html/cerebracrm/suit-sdk/src/Config.php on line 10
+[20-Mar-2017 08:31:50 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 23
+[20-Mar-2017 08:32:27 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 23
+[21-Mar-2017 00:15:32 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 24
+[21-Mar-2017 00:16:03 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 27
+[21-Mar-2017 00:17:40 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 27
+[21-Mar-2017 00:19:21 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 27
+[21-Mar-2017 00:19:31 America/Chicago] PHP Fatal error:  Class 'Config' not found in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 5
+[21-Mar-2017 00:19:33 America/Chicago] PHP Fatal error:  Class 'Config' not found in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 5
+[21-Mar-2017 00:20:17 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 27
+[21-Mar-2017 00:20:29 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 27
+[21-Mar-2017 00:20:55 America/Chicago] PHP Fatal error:  Call to undefined method SuitSDK\Config::set() in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 27
+[21-Mar-2017 00:25:48 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 33
+[21-Mar-2017 00:25:50 America/Chicago] PHP Fatal error:  Call to a member function set() on null in /home/matricor/public_html/cerebracrm/suit-sdk/src/UserRequest.php on line 33
